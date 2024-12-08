@@ -12,7 +12,7 @@ const YoutubeVideo: React.FC<IProps> = (props) => {
   //   autoPlay ? "?autoplay=1" : ""
   // }`;
   const videoURL =
-    "https://drive.google.com/file/d/1OZYdbuORXbAgnL1jmtpZQSc6E3jkBWfr/view?usp=sharing";
+    "https://res.cloudinary.com/dt3o8ldp9/video/upload/v1733682728/cycling_1_ov3qdp.mp4";
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const defaultHeight = 495;
   const [videoHeight, setVideoHeight] = useState<number>(

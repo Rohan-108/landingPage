@@ -19,11 +19,12 @@ const Hero: React.FC = () => {
               dignissimos at labore eveniet!
             </p>
             <div className="flex gap-5 items-center mt-[30px]">
-              <Button type="button" variant="default" size="lg">
-                Get Started
-                <img src="/googlePlay.svg" alt="applink" className="w-8 h-8" />
-              </Button>
-              <Button type="button" variant="secondary">
+              <img
+                src="/play.png"
+                alt="applink"
+                className="w-[38%]  object-contain block"
+              />
+              <Button type="button" variant="secondary" className="">
                 Learn More
                 <ArrowRight size={20} className="ml-2" />
               </Button>

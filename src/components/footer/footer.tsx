@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../ui/button";
 
 const Footer: React.FC = () => {
   return (
@@ -9,11 +8,12 @@ const Footer: React.FC = () => {
           <h1 className="text-2xl md:text-4xl font-semibold text-center tracking-tight bg-gradient-to-b from-white to-[#ffe] text-transparent bg-clip-text mt-6">
             Lorem ipsum dolor sit amet Lorem, ipsum dolor.
           </h1>
-          <div className="space-y-4">
-            <Button type="button" variant="default" className="mt-6">
-              <img src="/googlePlay.svg" alt="applink" className="w-10 h-10" />
-              Download Now
-            </Button>
+          <div className=" mx-auto flex items-center justify-center space-y-4">
+            <img
+              src="/play.png"
+              alt="applink"
+              className="w-[38%]  object-contain block"
+            />
           </div>
         </div>
         {/* <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4  place-items-center">
