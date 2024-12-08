@@ -1,5 +1,11 @@
 import React from "react";
 import { Button } from "../ui/button";
+function scrollToElement(id: string) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+}
 const Navbar: React.FC = () => {
   return (
     <header className="sticky top-0 backdrop-blur-sm bg-gradient-to-r from-indigo-400 to-cyan-400 z-50">
@@ -9,9 +15,27 @@ const Navbar: React.FC = () => {
           SEEYAA
         </div>
         <nav className="hidden md:flex gap-10 text-white items-center font-semibold tracking-tighter">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Features</a>
+          <Button
+            variant="link"
+            onClick={() => scrollToElement("hero")}
+            className="text-white font-medium"
+          >
+            Home
+          </Button>
+          <Button
+            onClick={() => scrollToElement("about")}
+            variant="link"
+            className="text-white font-medium"
+          >
+            About
+          </Button>
+          <Button
+            onClick={() => scrollToElement("video")}
+            variant="link"
+            className="text-white font-medium"
+          >
+            Features
+          </Button>
         </nav>
         <div className="flex space-x-4">
           <Button type="button" variant="default">

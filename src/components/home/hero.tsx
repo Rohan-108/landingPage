@@ -3,7 +3,10 @@ import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
 const Hero: React.FC = () => {
   return (
-    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-gradient-to-r from-indigo-400 to-cyan-400 text-white px-10 ">
+    <section
+      className="pt-8 pb-20 md:pt-5 md:pb-10 bg-gradient-to-r from-indigo-400 to-cyan-400 text-white px-10 "
+      id="hero"
+    >
       <div className="container flex w-100%">
         <div className="md:flex  justify-between">
           <div className="md:w-[40%] md:pt-10">
