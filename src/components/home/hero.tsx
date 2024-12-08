@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { ArrowRight, DownloadIcon } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 const Hero: React.FC = () => {
   return (
     <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-gradient-to-r from-indigo-400 to-cyan-400 text-white px-10 ">
@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
         <div className="md:flex  justify-between">
           <div className="md:w-[40%] md:pt-10">
             <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
-              Meet with awesome services & people
+              Lorem ipsum dolor sit amet.
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-white to-[#ffe] text-transparent bg-clip-text mt-6">
-              We Build Apps to Connect People.
+              Lorem ipsum dolor sit amet consectetur.
             </h1>
             <p className="text-xl text-[#ffe] tracking-tight mt-6 ">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -19,9 +19,9 @@ const Hero: React.FC = () => {
               dignissimos at labore eveniet!
             </p>
             <div className="flex gap-5 items-center mt-[30px]">
-              <Button type="button" variant="default">
+              <Button type="button" variant="default" size="lg">
                 Get Started
-                <DownloadIcon size={20} className="ml-2" />
+                <img src="/googlePlay.svg" alt="applink" className="w-8 h-8" />
               </Button>
               <Button type="button" variant="secondary">
                 Learn More

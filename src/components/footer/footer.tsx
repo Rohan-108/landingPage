@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { Download } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -8,16 +7,16 @@ const Footer: React.FC = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="flex items-center justify-center flex-col mx-auto">
           <h1 className="text-2xl md:text-4xl font-semibold text-center tracking-tight bg-gradient-to-b from-white to-[#ffe] text-transparent bg-clip-text mt-6">
-            Discover the coolest fashion trends with Dulic.
+            Lorem ipsum dolor sit amet Lorem, ipsum dolor.
           </h1>
           <div className="space-y-4">
             <Button type="button" variant="default" className="mt-6">
+              <img src="/googlePlay.svg" alt="applink" className="w-10 h-10" />
               Download Now
-              <Download size={20} className="mr-2" />
             </Button>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4  place-items-center">
+        {/* <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4  place-items-center">
           <div>
             <h2 className="mb-6 text-sm font-bold text-white uppercase">
               Company
@@ -121,10 +120,11 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
+
         <div className="px-10 py-6 text-white md:flex md:items-center md:justify-between">
           <span className="text-sm text-white sm:text-center">
-            © 2024 <a href="https://dulic.in/">Dulic™</a>. All Rights Reserved.
+            © 2024 <a href="https://dulic.in/">SEEYAA™</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a href="#" className="text-white/18 hover:text-white">

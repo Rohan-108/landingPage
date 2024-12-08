@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="container">
         <div className=" wd-[90%] md:w-[50%] flex items-center justify-center flex-col mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#0b0b29] text-transparent bg-clip-text mt-6">
-            What We Do!
+            Lorem, ipsum dolor.!
           </h1>
           <p className="text-xl text-[#0b0b29] tracking-tight mt-6 text-center">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt

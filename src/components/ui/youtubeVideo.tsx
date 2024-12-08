@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 
 interface IProps {
-  videoId: string;
+  videoId?: string;
   autoPlay?: boolean;
-  title: string;
+  title?: string;
 }
-
+// https://drive.google.com/file/d/1OZYdbuORXbAgnL1jmtpZQSc6E3jkBWfr/view?usp=sharing
 const YoutubeVideo: React.FC<IProps> = (props) => {
-  const { videoId, autoPlay, title } = props;
-  const videoURL = `https://www.youtube.com/embed/${videoId}${
-    autoPlay ? "?autoplay=1" : ""
-  }`;
+  const { title } = props;
+  // const videoURL = `https://www.youtube.com/embed/${videoId}${
+  //   autoPlay ? "?autoplay=1" : ""
+  // }`;
+  const videoURL =
+    "https://drive.google.com/file/d/1OZYdbuORXbAgnL1jmtpZQSc6E3jkBWfr/view?usp=sharing";
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const defaultHeight = 495;
   const [videoHeight, setVideoHeight] = useState<number>(
