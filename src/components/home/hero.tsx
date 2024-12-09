@@ -35,9 +35,9 @@ const Hero: React.FC = () => {
           </div>
           <div className=" flex items-center mt-20 md:mt-0 md:h-[600px]">
             <img
-              src="/hero.svg"
+              src="/collage.png"
               alt="hero-image"
-              className="md:h-full md:w-auto md:max-w-none flex-1"
+              className="md:h-full md:w-auto md:max-w-none flex-1 "
             />
           </div>
         </div>

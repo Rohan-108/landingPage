@@ -38,10 +38,10 @@ const Navbar: React.FC = () => {
           </Button>
         </nav>
         <div className="flex space-x-4">
-          <Button type="button" variant="default">
+          {/* <Button type="button" variant="default">
             Download
             <img src="/googlePlay.svg" alt="applink" className="w-8 h-8" />
-          </Button>
+          </Button> */}
           <Button type="button" variant="secondary" className="hidden md:block">
             About
           </Button>
