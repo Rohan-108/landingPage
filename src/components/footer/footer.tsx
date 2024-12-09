@@ -9,11 +9,13 @@ const Footer: React.FC = () => {
             Lorem ipsum dolor sit amet Lorem, ipsum dolor.
           </h1>
           <div className=" mx-auto flex items-center justify-center space-y-4">
-            <img
-              src="/play.png"
-              alt="applink"
-              className="w-[38%]  object-contain block"
-            />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.mindcrewtech.seeyaa"
+              className="block w-[40%] h-auto"
+              target="_blank"
+            >
+              <img src="/play.png" alt="applink" className=" w-[100%] block" />
+            </a>
           </div>
         </div>
         {/* <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4  place-items-center">

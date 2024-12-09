@@ -21,15 +21,21 @@ const Hero: React.FC = () => {
               Doloribus quia cum, quas tempora et similique expedita repellat
               dignissimos at labore eveniet!
             </p>
-            <div className="flex gap-5 items-center mt-[30px]">
-              <img
-                src="/play.png"
-                alt="applink"
-                className="w-[38%]  object-contain block"
-              />
+            <div className="flex gap-1 items-center mt-[30px]">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mindcrewtech.seeyaa"
+                className="block w-[40%] h-auto"
+                target="_blank"
+              >
+                <img
+                  src="/play.png"
+                  alt="applink"
+                  className=" w-[100%] block"
+                />
+              </a>
               <Button type="button" variant="secondary" className="">
                 Learn More
-                <ArrowRight size={20} className="ml-2" />
+                <ArrowRight size={20} className="" />
               </Button>
             </div>
           </div>
